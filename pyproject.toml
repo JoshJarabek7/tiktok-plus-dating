@@ -1,0 +1,5 @@
+[tool.pyright]
+pythonPath = "venv/bin/python"
+venvPath = "."
+venv = "venv"
+extraPaths = ["app"]

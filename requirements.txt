@@ -1,0 +1,11 @@
+fastapi[all]
+pydantic[email,timezone]
+pydantic-settings
+pytest
+pytest-asyncio
+pytest-cov
+aioboto3
+neo4j-rust-ext
+python-jose[cryptography]
+httpx
+python-multipart 
