@@ -36,6 +36,7 @@ class BlockService:
     def _create_block_relationship(
         self, tx: ManagedTransaction, origin_id: UUID4, target_id: UUID4
     ) -> CreateBlockRecord:
+        # language=cypher
         query = """
         MATCH (blocker:User {user_id: $origin_id})
         MATCH (blockee:User {user_id: $target_id})
